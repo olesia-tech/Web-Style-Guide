@@ -368,22 +368,42 @@ template {
 
 .default {
   background-color: #51ddfc;
+  transition: all 0.2s ease-in-out;
+}
+.default:hover {
+  background-color: #9cecfd;
 }
 
 .error {
   background-color: #e4757a;
+  transition: all 0.2s ease-in-out;
+}
+.error:hover {
+  background-color: #f1b5b8;
 }
 
 .info {
   background-color: #927bc1;
+  transition: all 0.2s ease-in-out;
+}
+.info:hover {
+  background-color: #bdafd9;
 }
 
 .success {
   background-color: #63cc82;
+  transition: all 0.2s ease-in-out;
+}
+.success:hover {
+  background-color: #9ddfb0;
 }
 
 .warning {
   background-color: #fd7856;
+  transition: all 0.2s ease-in-out;
+}
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -587,4 +607,31 @@ template {
     margin-left: initial;
     margin-right: initial;
   }
+}
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

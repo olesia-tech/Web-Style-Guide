@@ -16,20 +16,45 @@
 
 .default {
   background-color: $color-secondary;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: lighten( $color-secondary, 15%);
+  }
 }
 
 .error {
   background-color: #e4757a;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: lighten(#e4757a , 15%);
+  }
 }
 
 .info {
   background-color: #927bc1;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: lighten( #927bc1, 15%);
+  }
 }
 
 .success {
   background-color: #63cc82;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+  background-color: lighten( #63cc82, 15%);
+  }
 }
 
 .warning {
   background-color: $color-warning;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: lighten($color-warning , 15%);
+  }
 }
